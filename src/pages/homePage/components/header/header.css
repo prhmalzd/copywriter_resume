@@ -1,0 +1,20 @@
+.header {
+  height: 50vh;
+  font-size: 20em;
+  padding-top: 50px;
+}
+
+.header__text {
+  border-right: 10px black solid;
+  padding: 20px 10px 20px 50px;
+  animation: lineColorChange 1s infinite;
+}
+
+
+
+@keyframes lineColorChange {
+  0% {border-right-color: red;}
+  25% {border-right-color: yellow;}
+  75% {border-right-color: green;}
+  100% {border-right-color: blue;}
+}

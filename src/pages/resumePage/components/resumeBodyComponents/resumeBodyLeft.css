@@ -1,0 +1,80 @@
+
+
+.resumeBody__left {
+  padding-left: 20%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 90px;
+}
+
+
+.resumeBody__left__profilePicture img {
+  width: 250px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.resumeBody__left__bio {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 1.2em;
+}
+
+.resumeBody__left__bio div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: start;
+}
+
+.resumeBody__left__bio__email svg {
+  height: 1.2em;
+  width: 1.2em;
+}
+
+.resumeBody__left__bio__address svg {
+  height: 1.2em;
+  width: 1.2em;
+}
+
+.resumeBody__left__bio__link svg {
+  height: 1.2em;
+  width: 1.2em;
+}
+
+.resumeBody__left__education, .resumeBody__left__expertise, .resumeBody__left__languages {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+}
+
+.resumeBody__left__education__title , .resumeBody__left__expertise__title, .resumeBody__left__languages__title{
+  font-size: 3em;
+  font-family: 'rubikBold';
+}
+
+.resumeBody__left__education__discription , .resumeBody__left__expertise__discription , .resumeBody__left__languages__discription{
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  gap: 10px;
+}
+
+.resumeBody__left__education__discription__fieldName {
+  font-size: 1.8em;
+}
+
+.resumeBody__left__education__discription__uniName, .resumeBody__left__expertise__discription__item ,.resumeBody__left__languages__discription {
+  font-size: 1.5em;
+}
+
+.resumeBody__left__expertise__discription ,.resumeBody__left__languages__discription {
+  font-weight: 100;
+  gap: 20px;
+}

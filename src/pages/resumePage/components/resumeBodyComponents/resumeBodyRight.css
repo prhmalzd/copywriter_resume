@@ -1,0 +1,90 @@
+.resumeBody__right {
+  padding-top: 5%;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 90px;
+  padding-left: 5%;
+}
+
+.resumeBody__right__header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  border-bottom: solid 2px #4b4b4b;
+  font-size: 2.5em;
+  width: 600px;
+}
+
+.resumeBody__right__header__name , .resumeBody__right__aboutMe__header, .resumeBody__right__WorkExperience__header {
+  font-size: 2em;
+  font-family: 'rubikSemiBold';
+}
+
+.resumeBody__right__header__discription {
+  font-family: 'rubikLight';
+  color: #808080;
+  letter-spacing: 4px;
+}
+
+.resumeBody__right__aboutMe, .resumeBody__right__WorkExperience {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.resumeBody__right__WorkExperience {
+  gap: 8px;
+}
+.resumeBody__right__aboutMe__bio {
+  color: #808080;
+  line-height: 28px;
+  text-align: justify;
+}
+.resumeBody__right__WorkExperience__date , .resumeBody__right__WorkExperience__coName , .resumeBody__right__WorkExperience__field {
+  font-size: 1.3em;
+  color: #808080;
+  font-family: 'rubikLight';
+}
+.resumeBody__right__WorkExperience__field{
+  color: #4b4b4b;
+  font-size: 1.8em;
+  font-family: 'rubik';
+}
+
+.resumeBody__right__WorkExperience__works {
+  display: flex;
+  margin-top: 30px;
+  padding-left: 30px;
+  flex-direction: column;
+  gap: 50px;
+  border-left: solid 2px #4b4b4b;
+}
+
+.resumeBody__right__WorkExperience__work {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.resumeBody__right__WorkExperience__bio {
+  color: #808080;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.resumeBody__right__WorkExperience__works__circule1, .resumeBody__right__WorkExperience__works__circule2 {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: #4b4b4b solid 2px;
+  border-radius: 100%;
+  position: relative;
+  top: -616px;
+  left: -40px;
+}
+
+.resumeBody__right__WorkExperience__works__circule2 {
+  top: -374px;
+}

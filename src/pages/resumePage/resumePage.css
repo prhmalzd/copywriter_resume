@@ -1,0 +1,15 @@
+.resumeBody {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+
+
+/* */
+
+.resumeBody__header {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+}
